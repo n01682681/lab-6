@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>working with variables, loops, and functions</title>
+  </head>
+  <body>
+    <h1>working with variables, loops, and functions</h1>
+    <script>
+      let mynumber = 10
+      let mystring = "hello, javascript";
+      console.log( mynumber);
+      console.log( mystring);
+      console.log("looping from 0 to 10:");
+      for (let i = 0; i <= 10; i++) {
+      console.log(i);
+    }
+
+    console.log("First 5 multiples of 3:");
+    for (let i = 1; i <= 5; i++) {
+      console.log(`The multiple of 3 is: ${3 * i}`);
+    }function addNumbers(num1, num2) {
+      return num1 + num2;
+    }
+
+    let result = addNumbers(4, 2);
+    console.log(`The result of adding 4 and 2 is: ${result}`);
+
+    function multiplyNumbers(num1, num2) {
+      return num1 * num2;
+    }
+
+    let product = multiplyNumbers(6, 4);
+    console.log(`The product of 6 and 4 is: ${product}`);
+
+    </script>
+  </body>
+</html>
